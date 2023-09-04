@@ -21,7 +21,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "HTTPS=true SSL_CRT_FILE=/home/daniel/saas-platform/frontend/localhost.pem SSL_KEY_FILE=/home/daniel/saas-platform/frontend/localhost-key.pem react-scripts start",
+    "start": "HTTPS=true SSL_CRT_FILE=../saas-platform/grip-py/apps/backend/grip/apps/backend/grip_single_pov_certs/localhost.pem SSL_KEY_FILE=../saas-platform/grip-py/apps/backend/grip/apps/backend/grip_single_pov_certs/localhost-key.pem react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

@@ -32,6 +32,23 @@ function App() {
     redirect_uri: "http://localhost:9090/api/auth",
   });
 
+  // const login = useGoogleLogin({ 
+  //   onSuccess: async (codeResponse) => {
+  //     console.log(codeResponse); 
+  //     try {
+  //       const res = await axios.get(
+  //         "https://localhost:9090/api/auth/health-check"
+  //       );
+  //       console.log(res);
+  //     } catch (e) {
+  //       console.log(e);
+  //     }
+  //   },
+  //   flow: "auth-code",
+  //   scope: "https://www.googleapis.com/auth/gmail.readonly",
+  //   redirect_uri: "http://localhost:9090/api/auth",
+  // });
+
   return (
     <div className="App">
       <header className="App-header">
